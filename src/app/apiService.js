@@ -3,7 +3,8 @@ import axios from "axios";
 
 const apiService = axios.create({
   // baseURL: BASE_URL,
-  baseURL: "http://localhost:5000",
+  // baseURL: "http://localhost:5000",
+  baseURL: "http://localhost:3000",
 });
 
 apiService.interceptors.request.use(
