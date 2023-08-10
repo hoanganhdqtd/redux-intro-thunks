@@ -9,6 +9,8 @@ function App() {
       <h1>Intro to Redux</h1>
       {/* <Counter /> */}
       {/* <MultiCounter /> */}
+      <Counter />
+      <MultiCounter />
       <Todo />
     </div>
   );
